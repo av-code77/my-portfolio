@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style1.css" />
+  </head>
+  <body>
+    <header>
+      <section id="links">
+        <h1>My portfolio</h1>
+        <nav>
+          <ul>
+            <li class="nav-item"><a href="#About">About</a></li>
+            <li class="nav-item"><a href="#ContactMe">Contact me</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>about</h2>
+        <p>I learn JavaScript and like the coding Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam quia explicabo eius voluptatibus, nostrum ut molestias autem sequi. Harum quos cumque tenetur animi sequi nobis vel iste quia laudantium voluptatibus nemo, minus dolor odit quas dolorem voluptatem! Quasi sed eveniet doloribus corrupti, quisquam omnis ipsa similique explicabo accusantium corporis minus.</p>
+      </section>
+      <section id="skill">
+        <h2>My skills</h2>
+        <ul class="skills-list">
+          <li class="skill-card"><span class="badge">1</span>HTML</li>
+          <li class="skill-card">CSS</li>
+          <li class="skill-card">SCSS</li>
+          <li class="skill-card">JavaScript</li>
+          <li class="skill-card">React</li>
+        </ul>
+      </section>
+      <section id="Contact">
+        <h2>Contact me</h2>
+        <form action="">
+          <input
+            type="text"
+            placeholder="please write yout name"
+            name=""
+            id=""
+            required
+          />
+          <button class="send-message">Send message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; All right reserved</p>
+    </footer>
+    <button class="fixed-button">Write me</button>
+    <script>
+const themeBtn = document.querySelector('.fixed-button')
+themeBtn.addEventListener('click', () => {
+document.body.classList.toggle('dark-theme');
+})
+
+
+</script>
+  </body>
+</html>
